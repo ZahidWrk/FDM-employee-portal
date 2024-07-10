@@ -1,0 +1,183 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .wrapper {
+    margin-top: 50px; /* Adjust this value as needed for the desired gap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .topButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: 1200px;
+    margin: 10px auto;
+  }
+  
+  .container {
+    width: 80vw;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+  }
+  
+  .filterDropdown {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .filterLabel {
+    font-size: 18px;
+    font-family: "Roboto Slab";
+    color: #4548A0;
+    margin-right: 10px;
+  }
+  
+  .select {
+    padding: 8px 10px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .blog {
+    margin-bottom: 20px;
+    background-color: #A3ABD0;
+    padding: 20px;
+    border-radius: 15px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+  }
+  
+  .blog h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #4548A0;
+    font-family: "Roboto Slab";
+    margin-left: 0; /* Align left */
+  }
+  
+  .blog p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family: "Roboto Slab";
+    margin-left: 0; /* Align left */
+  }
+  
+  .blog-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    font-family: "Roboto Slab";
+  }
+  
+  .small {
+    font-size: 12px;
+  }
+  
+  .replyButton,
+  .newPostLink {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .replyButton:hover,
+  .newPostLink:hover {
+    background-color: #0056b3;
+  }
+  
+  .replyButton + .new-post-link {
+    margin-left: 20px;
+  }
+  
+  .blog-divider {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  
+  .welcomeMessage {
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Roboto Slab";
+    margin: 10px auto;
+    text-align: center; /* Center text */
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90vw;
+    }
+  }
+
+  /* Forum.module.css */
+
+.replyButton {
+  background-color: #007bff; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.replyButton:hover {
+  background-color: #539eee; /* Darker green on hover */
+}
+
+.newPostLink {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.newPostLink:hover {
+  background-color: #0056b3;
+}
+
+  

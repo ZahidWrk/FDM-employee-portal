@@ -1,0 +1,140 @@
+.request-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    position: relative; /* Ensure positioning context */
+    margin-top: 2.5em;
+}
+.request-header{
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    width: 95vw;
+    height: 4vw;
+    margin-bottom: 20px;
+    margin-top:20px;
+    display: flex; 
+    align-items: center; /* Center vertically */
+    position: relative; /* Add position relative */
+    justify-content: center;
+    padding: 25px;
+}
+
+.request-header h1{
+    color: #4548A0;
+    text-align: left;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.request-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95vw;
+}
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #A3ABD0;
+    padding: 10px;
+    border-radius: 15px;
+    width: 95vw;
+    height: auto;
+}
+.RequestInputTitle {
+    width: 90vw;
+    height: 3vw;
+    background: white;
+    border-radius: 15px;
+    text-align: left; /* Align text to the left */
+    font-size: 16px; /* Increase font size */
+    padding-left: 10px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.request-input{
+    align-items:center;
+}
+
+.RequestInputNotes {
+    width: 90vw;
+    height: 13vw;
+    background: white;
+    border: 1.5px solid #345E9D;
+    border-radius: 15px;
+    text-align: left; /* Align text to the left */
+    font-size: 16px; /* Increase font size */
+    padding: 10px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.inputTitle input {
+    width: 100%; /* Adjusted width to fill the container */
+    height: 100%;
+    margin-left: 30px;
+}
+
+.inputNotes textarea {
+    width: 100%; /* Adjusted width to fill the container */
+    height: 100%;
+    margin-left: 30px;
+}
+
+.notes {
+    margin-bottom: 30px;
+}
+
+.select {
+    border-radius: 10px;
+    height: 3vw;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.startDate, .endDate{
+    position: relative;
+    bottom:27px;
+    width: 70%;
+    left: 150px;
+}
+
+.title{
+    font-size: 22px;
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    padding-left: 9px;
+    position: relative;
+    padding: 5px;
+
+}
+
+
+
+.request-container button {
+    font-size: 17px;
+    width: 40%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 20px;
+}
+
+.request-container button:hover {
+    color: white;
+    background-color: #4548A0;
+    cursor:pointer;
+}
+

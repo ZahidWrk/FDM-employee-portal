@@ -1,0 +1,73 @@
+
+.programs-page {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin-top: 3em;
+}
+
+.yourprograms, .all-programs {
+    margin: 1rem;
+    padding: 3rem;
+    border: 1px solid ;
+    border-radius: 5px;
+    background-color: rgb(80, 86, 194);
+}
+
+.all-programs {
+    width:60%;
+    min-width: 400px;
+}
+
+.programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax( 300px, 1fr));
+    gap: 20px;
+}
+
+.yourprograms {
+    width: 30%;
+    min-width: 400px;
+}
+
+.bigtitle {
+    color: white;
+    text-align: center;
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+    min-width: 300px;
+}
+
+.program .title {
+    text-align: center;
+    margin: 7%;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 15px;
+}
+
+a {
+    vertical-align: middle;
+}
+
+.btn {
+    width: 100px;
+}

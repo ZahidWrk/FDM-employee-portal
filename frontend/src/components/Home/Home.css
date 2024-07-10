@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.Home {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Roboto Slab";
+}
+.Home .title {
+    color: #2F3C7E;
+    font-size: large;
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    width: 100%;
+}
+.Home .title h1 {
+    margin-bottom: 10px;
+}
+.Home .dashboard {
+    background-color: #A3ABD0;
+    border-radius: 15px;
+    padding: 10px;
+    display: grid;
+    grid-template-areas:
+    "nav hours"
+    "nav announce"
+    "nav ticket"
+    "nav issues";
+    grid-template-columns: 1fr 2fr;
+}
+
+.Home .dashboard * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.Home .navigation {
+    display: grid;
+    /* grid-area: nav; */
+    gap: 10px;
+    text-align: center;
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.Home ul {
+    list-style: none;
+}
+.Home .link {
+    text-decoration: none;
+    color: #2F3C7E;
+}
+.Home .link:hover {
+    color: #A3ABD0;
+}
+.Home .navigation .main {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.Home #x {
+    padding-top: 10px;
+}
+.Home .y {
+    padding-bottom: 10px;
+}
+.Home .hours {
+    display: grid;
+    grid-area: hours;
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.Home .hours h1 {
+    color: #2F3C7E;
+}
+.Home .announce {
+    display: grid;
+    grid-area: announce;
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Home .ticket {
+    display: grid;
+    grid-area: ticket;
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Home .issues {
+    display: grid;
+    grid-area: issues;
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Home .hours-label {
+    color: black;
+}
+
+.Home .log-btn {
+    height: 40px;
+    width: 150px;
+}
+
+.Home form {
+    background-color: #A3ABD0;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.Home .issue-status {
+    margin: 35px;
+}

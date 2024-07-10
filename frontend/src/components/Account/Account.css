@@ -1,0 +1,103 @@
+.account-container{
+    height: 45em;
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    position: relative; /* Ensure positioning context */
+    margin: 0;
+    margin-top: 2em;
+}
+.personal-header{
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    width: 95vw;
+    height: 4vw;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    display: flex; 
+    align-items: center; /* Center vertically */
+    position: relative; /* Add position relative */
+    justify-content: center;
+    padding: 25px;
+}
+
+.personal-header h1{
+    color: #4548A0;
+    text-align: left;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 20px;
+    margin: 0;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #A3ABD0;
+    padding: 10px;
+    border-radius: 15px;
+    width: 55vw;
+}
+
+.title{
+    font-size: 22px;
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    padding-left: 9px;
+    position: relative;
+    top: 15px;
+    margin: 0;
+
+}
+
+.fname, .lname, .email, .number, .password{
+    border: solid 1.5px blue;
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    border-radius: 15px;
+    width: 43vw;
+    height: 60px;
+    margin-top: 2px;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.edit-button {
+    margin-left: 20px;
+}
+
+.account-button {
+    font-size: 17px;
+    width: 45%;
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    
+    text-align: center;
+}
+
+.account-button:hover {
+    color: white;
+    background-color: #4548A0;
+    cursor:pointer;
+}
+

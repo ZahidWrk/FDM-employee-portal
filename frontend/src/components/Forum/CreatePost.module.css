@@ -1,0 +1,154 @@
+/* CreatePost.module.css */
+
+.wrapper {
+    background-color: #D9D4E6;
+    width: 95%;
+    max-width: 40rem; /* Increased width */
+    padding: 30px 40px;
+    border: 5px solid #2F3C7E;
+    position: relative;
+    max-height: 85vh;
+    overflow-y: auto;
+    margin: 0 auto; /* Center horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin-top: 4em;
+  }
+  
+  .title {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #4548A0;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .inputBox {
+    margin-bottom: 20px;
+  }
+  
+  .inputBox input,
+  .inputBox textarea {
+    width: calc(100% - 20px); /* Adjusted width */
+    height: 60px; /* Increased height */
+    background: #D9D4E6;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #345E9D;
+    font-size: 16px;
+    padding: 8px;
+    font-family: "Roboto Slab", sans-serif;
+    transition: border-color 0.3s ease;
+    color: #345E9D;
+  }
+
+  .inputBox textarea {
+    min-height: 220px; /* Increased height */
+    max-height: 220px; /* Increased height */
+    min-width: 22rem;
+    max-width: 22rem;
+    margin: 5px;
+  }
+  
+  .inputBox input::placeholder,
+  .inputBox textarea::placeholder {
+    color: #A3ABD0;
+  }
+  
+  .inputBox input:focus,
+  .inputBox textarea:focus {
+    border-color: #4548A0;
+  }
+  
+  .inputBox .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #345E9D;
+  }
+  
+  .submitButton,
+  .clearButton {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton {
+    background-color: #345E9D;
+    color: white;
+  }
+  
+  .clearButton {
+    background-color: white; /* White background */
+    color: #345E9D; /* Text color */
+    margin-top: 10px; /* Add some space between buttons */
+  }
+  
+  .submitButton:hover {
+    background: #2F3C7E;
+  }
+  .clearButton:hover {
+    background: #c24242;
+    color: white;
+  }
+  
+  .loginLink {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .loginLink a {
+    text-decoration: none;
+    color: #345E9D;
+    font-weight: 700;
+    font-family: "Roboto Slab", sans-serif;
+  }
+  
+  .loginLink a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Dropdown Menu Styles */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(238, 4, 4, 0.2);
+    z-index: 1;
+    padding: 10px;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    margin-bottom: 5px;
+  }
+  
+  .dropdown-menu a {
+    text-decoration: none;
+    color: #345E9D;
+    font-family: "Roboto Slab", sans-serif;
+  }
+  
+  .dropdown-menu a:hover {
+    text-decoration: underline;
+    color: #2F3C7E;
+  }
+  

@@ -1,0 +1,139 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    width: 80vw;
+    max-width: 1200px;
+    margin: 70px auto; /* Center content with top margin */
+    padding: 20px;
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #4548A0;
+    font-family: "Roboto Slab";
+    text-align: center; /* Center the text */
+  }
+  
+  .dropdown {
+    margin-bottom: 20px;
+  }
+  
+  #blogSelect {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .selectedBlog {
+    margin-top: 30px;
+  }
+  
+  .selectedBlog h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #4548A0;
+    font-family: "Roboto Slab";
+  }
+  
+  .selectedBlog p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: "Roboto Slab";
+  }
+  
+  .dropdown {
+    margin-bottom: 30px;
+    width: 100%; /* Full width */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  .reply {
+    margin-bottom: 20px;
+    background-color: #A3ABD0;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .reply p {
+    font-size: 16px;
+    margin: 5px 0;
+    font-family: "Roboto Slab";
+  }
+  
+  .separator {
+    width: 100%;
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .replyForm {
+    margin-top: 30px;
+  }
+  
+  .inputBox textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submitButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    display: block; /* Change to block to center horizontally */
+    margin: 0 auto; /* Add margin to center horizontally */
+  }
+  
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .backLink {
+    display: inline-block; /* Display as inline-block for same width as content */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin: 10px auto; /* Center horizontally with top and bottom margin */
+    text-align: center; /* Center text */
+  }
+  
+  .backLink:hover {
+    background-color: #0056b3;
+    text-decoration: none; /* Remove underline on hover */
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.SignUp .Name{
+    display: flex; /* Use Flexbox */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items along the cross axis */
+   }
+
+   .SignUp .input-name {
+    flex: 1; /* Allow the container to grow to fill the available space */
+    margin-right: 8px; /* Make sure to fix this so thast, there is gap between boxes only, not tp the left of both */
+    position: relative;
+    width: 50%;
+    height: 50px;
+    
+  }
+  
+  .SignUp .input-name input {
+    /* Add any additional styling for the input elements */
+    width: 100%; /* Ensure input elements fill the available space */
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid #345E9D;
+    font-size: 18px;
+    padding-left: 10px;
+    text-align: left;
+  }
+  .SignUp .input-name input::placeholder{
+    color: #A3ABD0;
+    padding-left: 7px;
+  }
+  
+  .SignUp body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #1E1E1E;
+    
+  }
+  .SignUp .shadow {
+    background-color: #2F3C7E;
+    width: 30rem;
+    height: 40rem;
+    padding: 30px 40px;
+    position: absolute;
+    z-index: -1;
+    left: 2%;
+    top: 2%;
+  }
+
+
+  .SignUp{
+    background-color: #D9D4E6;
+    width: 30rem;
+    height: 40rem;
+    padding: 30px 40px;
+    border: 5px solid #2F3C7E;
+    display: flex;
+    top:50px;
+    position: relative;
+    left: 8px;
+    margin-top: 26px;
+  }
+
+  .SignUp .Logo img{
+    width: 45%;
+    height: auto;
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 53%; /* Position the logo in the middle horizontally */
+    transform: translateX(-50%); /* Center the logo horizontally */
+    
+      
+  }
+
+  .SignUp h1 {
+    font-size: 60px;
+    text-align: center;
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    color: #4548A0;
+    opacity: 0.7;
+    margin-top: 110px;
+    margin-bottom: 0;
+  }
+  .SignUp p {
+    color: #000;
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .SignUp .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+  }
+
+  .SignUp .input-box input {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid #345E9D;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 0;
+    text-align: left;
+  }
+
+  .SignUp .input-box input::placeholder{
+    color: #A3ABD0;
+    padding-left: 7px;
+  }
+
+  .SignUp .input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+  }
+
+  .SignUp .have-account {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    
+  }
+  .SignUp .have-account a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .SignUp .have-account a:hover{
+    text-decoration: underline;
+  }
+
+  .SignUp button {
+    width : 100%;
+    height: 45px;
+    background: #2F3C7E;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+  }
+  .SignUp button:hover{
+    color: blue;
+    background-color: white;
+    cursor:pointer;
+  }
+
+  .SignUp .login-link{
+    width : 100%;
+    height: 45px;
+    background: #fafbff;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .SignUp .signupButton {
+    width: 390px;
+  }
+  .SignUp .login-link a{
+    text-decoration: none;
+  }
+  
+  .SignUp .login-link a:hover{
+    text-decoration: underline;
+  }

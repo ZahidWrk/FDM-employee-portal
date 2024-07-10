@@ -1,0 +1,133 @@
+.issue-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.issue-header {
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    width: 95vw;
+    height: 4vw;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding: 25px;
+}
+
+.issue-header h1 {
+    color: #4548A0;
+    text-align: left;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.issue-container .issue-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #A3ABD0;
+    padding: 10px;
+    border-radius: 15px;
+    width: 95vw;
+    flex-grow: 1; 
+}
+
+
+.inputIssue {
+    width: 90vw;
+    height: 13vw;
+    background: white;
+    border: 1.5px solid #345E9D;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.inputIssue textarea {
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.inputTitle {
+    width: 90vw;
+    height: 3vw;
+    background: white;
+    border-radius: 15px;
+    text-align: left; /* Align text to the left */
+    font-size: 16px; /* Increase font size */
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.inputTitle input {
+    width: 100%; /* Adjusted width to fill the container */
+    height: 100%;
+    margin-left: 30px;
+}
+
+.issue-input{
+    align-items:center;
+} 
+
+.issue-button {
+    font-size: 17px;
+    width: 50%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 20px;
+}
+
+.issue-button:hover {
+    color: white;
+    background-color: #4548A0;
+    cursor:pointer;
+}
+
+.input-date {
+    width: 30vw;
+    height: 3vw;
+    background: white;
+    border: 1.5px solid #345E9D;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.issue-container title{
+    font-size: 26px;
+    font-family: "Roboto Slab";
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    padding-left: 9px;
+    position: relative;
+    padding: 5px;
+
+}
+.head-title{
+    align-items: center;
+    font-size: 30px;
+    margin: 0;
+    text-decoration: underline;
+}

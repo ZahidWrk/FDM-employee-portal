@@ -1,0 +1,133 @@
+.employee-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.Account-header {
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    width: 95vw;
+    min-height: 3rem;
+    margin-bottom: 20px;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+}
+
+.Account-header h1 {
+    color: #4548A0;
+    text-align: left;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: #A3ABD0;
+    padding: 10px;
+    border-radius: 15px;
+    width: 95vw;
+    flex: 1;
+    align-items: left; /* Center horizontally */
+    justify-content: flex-start; /* Push items together */
+    position: relative; 
+}
+
+.title {
+    font-size: 22px;
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    margin-left: 22px;
+    position: relative;
+    top: 5px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px; /* Adjust margin */
+    height: 60px;
+    width: 43vw;
+}
+
+.input-box h1 {
+    height: 70%;
+}
+
+.input-box input {
+    /* flex: 1; */
+    width: 70%;
+    height: 80%;
+    background: white;
+    border: none;
+    outline: none;
+    border: 1.5px solid #345E9D;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.input-box input::placeholder {
+    color: #A3ABD0;
+    padding-left: 7px;
+}
+
+.save-button{
+    font-size: 17px;
+    margin-left: 14em;
+    width: 50%;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+}
+
+.save-button:hover {
+    background-color: #4548A0;
+    color: #ffff;
+}
+
+.input-box-employee {
+    min-width: 30em;
+}
+
+.input-box-employee h1{
+    min-width: 7em;
+}
+
+.employee-container #password {
+    display: flex;
+    position: relative;
+    
+}
+
+.employee-container #password input {
+    display: flex;
+    position: relative;
+    left: 42px;
+    width: 462px;
+    height: 45.5px;
+    background: white;
+    border: none;
+    outline: none;
+    border: 1.5px solid #345E9D;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 15px;
+
+}

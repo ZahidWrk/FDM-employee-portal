@@ -1,0 +1,74 @@
+/* Background*/
+.class-hrdashboard {
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.class-hrdashboard .leave-requests-section {
+    background-color: #A3ABD0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.class-hrdashboard .request-card {
+    background-color: #4548A0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.class-hrdashboard .request-card .request-card-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    padding-left: 9px;
+    margin: 0;
+}
+
+.class-hrdashboard .request-card .request-card-description {
+    color: white;
+    font-size: 15px;
+    line-height: normal;
+    text-align: center;
+    padding-left: 9px;
+    margin-top: 1%;
+}
+
+/* Buttons*/
+.class-hrdashboard .action-btn {
+    cursor: pointer;
+    font-size: 17px;
+    width: 45%;
+    margin: 30px 10px 10px 10px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border: #1E1E1E 1px solid;
+}
+
+.class-hrdashboard .action-btn:hover {
+    color: white;
+    background-color: #4548A0;
+    cursor: pointer;
+}
+
+.class-hrdashboard .resolve-btn {
+    /*  make button in the centre  */
+    display: block;
+    margin: auto;
+
+}
+
+.class-hrdashboard .reject-btn {
+    color: black;
+    background-color: lightcoral;
+    cursor: not-allowed;
+}
+
+.class-hrdashboard .approve-btn {
+    color: black;
+    background-color: lightgreen;
+    cursor: pointer;
+}

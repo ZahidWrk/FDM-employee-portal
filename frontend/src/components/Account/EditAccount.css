@@ -1,0 +1,132 @@
+.edit-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+}
+
+.EditAccount-header {
+    background-color: #FFF4F5;
+    border-radius: 15px;
+    width: 95vw;
+    height: auto;
+    min-height: 3em;
+    margin-bottom: 20px;
+    margin-top: 4em;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+ 
+}
+
+.EditAccount-header h1 {
+    color: #4548A0;
+    text-align: left;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    
+}
+
+.edit-container .EditAccount-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #A3ABD0;
+    padding: 10px;
+    border-radius: 15px;
+    width: 95vw;
+    flex: 1;
+    align-items: left; /* Center horizontally */
+    justify-content: flex-start; /* Push items together */
+    position: relative; 
+}
+
+.edit-container .title {
+    font-size: 23px;
+    font-family: "Roboto Slab";
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    margin-left: 22px;
+    position: relative;
+    top: 5px;
+}
+
+.edit-container .input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px; /* Adjust margin */
+    height: 60px;
+    width: 43vw;
+    text-align: left;
+}
+
+.edit-container .input-box h1 {
+    height: 70%;
+    width: 40vw;
+}
+
+.edit-container .input-box input {
+    /* flex: 1; */
+    width: 60vw;
+    height: 80%;
+    background: white;
+    border: none;
+    outline: none;
+    border: 1.5px solid #345E9D;
+    font-size: 18px;
+    padding-left: 20px;
+    border-radius: 15px;
+    
+}
+
+.edit-container input::placeholder {
+    color: #A3ABD0;
+    padding-left: 7px;
+}
+
+.edit-container .save-button{
+    font-size: 17px;
+    margin-left: 40px;
+    width: 45%;
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+}
+
+.edit-container .save-button:hover{
+    color: white;
+    background-color: #4548A0;
+    cursor:pointer;
+}
+
+#invalid-credentials {
+    color: black;
+    font-size: 100%;
+    text-align: center;
+    margin-top: 10px;
+    width: 50%;
+    
+  }
+
+  #password-mismatch {
+    color: black;
+    font-size: 100%;
+    text-align: center;
+    margin-top: 10px;
+    width: 50%;
+    
+  }

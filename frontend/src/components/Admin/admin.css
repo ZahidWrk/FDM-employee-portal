@@ -1,0 +1,162 @@
+.page-title {
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+    background-color: #2F3C7E;
+    padding: 10px;
+    border-radius: 10px;
+    width:800px;
+    margin-left: 2em;
+}
+
+.admin-page {
+    display: flex;
+    margin-top: 50px;
+    width: 90vw;
+    justify-content: space-between;
+}
+
+.issue-section {
+    width: 60%;
+    /* background-color: green; */
+    margin: 0 10px;
+}
+
+.issue-search {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 70px;
+    bottom: 20px
+}
+
+.issue-search button {
+    margin-left: 10px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.issue, .solved-issues {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: #A3ABD0;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    min-height: 70px;
+}
+
+.issue-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+}
+
+.description {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.issue-info {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FFF4F5;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.solved-issues {
+    background-color: green;
+}
+
+.solved-btn {
+    min-width: 120px;
+    height: 40px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+}
+
+.permissions-area {
+    width: 40%;
+    background-color: #A3ABD0;
+    margin-right: 45px;
+    height: 370px;
+    padding-top: 12px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    right: 20px
+}
+
+.permissions-title {
+    color: white;
+    width: 100%;
+}
+
+.permissions-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+}
+
+.label-group {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px;
+}
+
+label {
+    width: 40%;
+    color: white;
+}
+
+.admin-page select, .admin-page input {
+    width: 40%;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+button {
+    width: 80%;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    width: 90%;
+}
+
+.admin-page .permissions-title, .admin-page .permissions-area label {
+    color: #2F3C7E;
+}

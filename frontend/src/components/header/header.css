@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&family=Nanum+Gothic+Coding&family=Playfair+Display:wght@500&family=Quicksand&family=Roboto+Slab:wght@100..900&display=swap');
+
+.Header {
+    background-color: black;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.Header img {
+    filter: invert();
+    height: 90px;
+    margin-left: 20px; /* Adjust the value to move the image to the right */
+    margin-bottom: 10px;
+}
+.Header ul {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 80px;
+}
+
+.Header li {
+    list-style: none;
+    padding-right: 40px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+
+.Header form {
+    display: flex;
+    position: relative;
+}
+
+.Header input {
+    display: flex;
+    width: 220px;
+    height: 35px;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 7px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    border-style: none;
+    position: relative;
+    top: 16px;
+}
+
+.Header form button {
+    display: flex;
+    position: relative;
+    right: 45px;
+    bottom: 1.5px;
+    width: 30px;
+}
+
+.Header form img {
+    filter: blur();
+    display: flex;
+    position: relative;
+    right:15px;
+    top: 5px;
+    height: 20px;
+}
+
+.Header .link {
+    color: white;
+    text-decoration: none;
+}
+.Header .dropdown {
+    cursor: default;
+}
+
+.Header .dropdown-2elements, .Header .dropdown-3elements{
+    display: flex;
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+.Header .dropdown-3elements {
+    height: 160px
+}
+
+.Header #cap {
+    display: flex;
+    position: relative;
+    right: 5px;
+}
+
+.Header .dropdown-2elements, .Header .dropdown-3elements{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -55px;
+    padding-top: 20px;
+    min-height: 115px;
+    border-radius: 10px;
+}
+
+.Header #aa {
+    display: flex;
+    position: relative;
+    right: 4px;
+}
+
+.Header #bb {
+    display: flex;
+    position: relative;
+    right: 8px;
+}
+
+.Header .dropdown-account {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -50px;
+    padding-top: 20px;
+    min-height: 224px;
+    border-radius: 10px;
+    top: 20px;
+}
+
+.Header .dropdown-account #a {
+    display: flex;
+    position: relative;
+    right: 9px;
+}
+
+.Header .dropdown-account #b {
+    display: flex;
+    position: relative;
+    right: 18px;
+}
+
+.Header .dropdown-account #c {
+    display: flex;
+    position: relative;
+    left: 15px;
+}
+
+.Header .dropdown-account #d {
+    display: flex;
+    position: relative;
+    left: 25px;
+}
+
+.Header .dropdown-documents {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -50px;
+    padding-top: 20px;
+    min-height: 115px;
+    border-radius: 10px;
+    top: 20px;
+}
+
+.Header #doc {
+    display: flex;
+    position: relative;
+    right: 17px;
+}
+
+.Header #doc2 {
+    display: flex;
+    position: relative;
+    right: 19px;
+}
+
+.Header .dropdown-2elements li, .Header .dropdown-3elements li, .Header .dropdown-account li, .Header .dropdown-documents li {
+    padding: 12px 16px;
+}
+
+.Header .dropdown:hover .dropdown-2elements, .Header .dropdown:hover .dropdown-3elements, .Header .dropdown:hover .dropdown-account, .Header .dropdown:hover .dropdown-documents {
+    display: block;
+}
+
+.Header button {
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.Header button:hover {
+    background-color: #2F3C7E;
+    color: white;
+    cursor: pointer;
+}
+
+.Header .search-bar button {
+    height: 31px;
+    background-color: #efefef;
+}
+
+.Header .search-bar button:hover img {
+    filter: invert();
+}
